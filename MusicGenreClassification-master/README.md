@@ -5,19 +5,13 @@
 
 # MusicGenreClassification
 
-Academic research in the field of **Deep Learning (Deep Neural Networks) and Sound Processing**, Tel Aviv University.
+
 
 Featured in [Medium](https://medium.com/@matanlachmish/music-genre-classification-470aaac9833d).
 
 ## Abstract
 
 This paper discuss the task of classifying the music genre of a sound sample.
-
-## Introduction
-
-When I decided to work on the field of sound processing I thought that genre classification is a parallel problem to the image classification. To my surprise I did not found too many works in deep learning that tackled this exact problem. One paper that did tackle this classification problem is Tao Feng’s paper [1] from the university of Illinois. I did learned a lot from this paper, but honestly, they results the paper presented were not impressive.
-
-So I had to look on other, related but not exact papers. A very influential paper was Deep content-based music recommendation [2] This paper is about content-base music recommendation using deep learning techniques. The way they got the dataset, and the preprocessing they had done to the sound had really enlightened my implementation. Also, this paper was mentioned lately on “Spotify” blog [3]. Spotify recruited a deep learning intern that based on the above work implemented a music recommendation engine. His simple yet very efficient network made me think that Tao’s RBM was not the best approach and there for my implementation included a CNN instead like in the Spotify blog. One very important note is that Tao’s work published result only for 2,3 and 4 classes classification. Obviously he got really good result for 2 classes classification, but the more classes he tried to classify the poorer the result he got. My work classify the whole 10 classes challenge, a much more difficult task. A sub task for this project was to learn a new SDK for deep learning, I have been waiting for an opportunity to learn Google’s new TensorFlow[4]. This project is implemented in Python and the Machine Learning part is using TensorFlow.
 
 ## The Dataset
 
@@ -161,16 +155,3 @@ http://www.tagtraum.com/msd_genre_datasets.html
 [9] https://github.com/bmcfee/librosa
 [10] http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html [11] Helge Homburg, Ingo Mierswa, Bu l̈ent Mo l̈ler, Katharina Morik and Michael
 Wurst, A BENCHMARK DATASET FOR AUDIO CLASSIFICATION AND CLUSTERING, University of Dortmund, AI Unit. http://sfb876.tu-dortmund.de/PublicPublicationFiles/ homburg_etal_2005a.pdf
-
-## Author
-
-Matan Lachmish <sub>a.k.a</sub> <b>The Big Fat Ninja</b> <img src="assets/TheBigFatNinja.png?raw=true" alt="The Big Fat Ninja" width="13"><br>
-https://thebigfatninja.xyz
-
-### attribution
-
-Icon made by <a title="Freepik" href="http://www.freepik.com">Freepik</a> from <a title="Flaticon" href="http://www.flaticon.com">www.flaticon.com</a>
-
-## License
-
-MusicGenreClassification is available under the MIT license. See the LICENSE file for more info.
