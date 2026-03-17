@@ -6,9 +6,6 @@
 # MusicGenreClassification
 
 
-
-Featured in [Medium](https://medium.com/@matanlachmish/music-genre-classification-470aaac9833d).
-
 ## Abstract
 
 This paper discuss the task of classifying the music genre of a sound sample.
